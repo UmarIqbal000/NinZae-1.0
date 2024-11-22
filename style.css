@@ -1,0 +1,156 @@
+/* Minimalist Design with Colors */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #F8F9FA;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #FFD700;
+}
+
+/* Hero Section */
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+}
+
+#home h1 {
+  font-size: 2.5rem;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  background-color: #FFD700;
+  color: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #FFC107;
+}
+
+/* Section Titles */
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: #007BFF;
+}
+
+/* Services */
+#services .service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#services .card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#services .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials */
+#testimonials blockquote {
+  background-color: #FFD700;
+  padding: 20px;
+  border-left: 5px solid #007BFF;
+  margin: 20px auto;
+  max-width: 600px;
+  font-style: italic;
+}
+
+/* Contact Form */
+#contact form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}
+
+#contact button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #007BFF;
+  color: white;
+}
